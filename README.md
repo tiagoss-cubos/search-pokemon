@@ -14,7 +14,7 @@ Nesse projeto, desenvolvido no curso na [B8one](https://www.b8one.academy), o de
 
 Foi utilizado no projeto o layout foi elaborado por Yusting Moura e está disponível no [Figma](https://www.figma.com/file/CFd1USWtbpCj3gogP6FB7X/Pokemon?node-id=0%3A1)
 
-#### Acesse o link abaixo para jogar
+#### Clique no link abaixo para acessar a página e apenda mais sobre os pokemons
 
 - [Bestflix](https://bestflix.netlify.app)
 
