@@ -1,6 +1,6 @@
 # Search Pokemon
 
-### Website
+### Pokemon Website
 
 Nesse projeto, desenvolvido no curso na [B8one](https://www.b8one.academy), o desafio era popular uma página a fim de mostrar alguns tipos de pokemons apartir da API [pokeapi](https://pokeapi.co), além de um campo de busca e botões para filtrar de acordo com a categoria do pokemon. Foi realizado através do DOM (Document Object Model)
 
@@ -16,7 +16,7 @@ Foi utilizado no projeto o layout foi elaborado por Yusting Moura e está dispon
 
 #### Clique no link abaixo para acessar a página e apenda mais sobre os pokemons
 
-- [Bestflix](https://bestflix.netlify.app)
+- [SearchPokedex](https://searchpokedex.netlify.app)
 
 #### Implementações futuras:
 
