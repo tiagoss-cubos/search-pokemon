@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon website - b8one</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#" class="logo-link">
+            <img
+              src="./assets/logo-pokemon.png"
+              alt="Pokemon"
+              class="logo-image"
+            />
+          </a>
+        </div>
+        <div class="search">
+          <button class="search-button" type="submit">
+            <img
+              src="./assets/search-icon.png"
+              alt="Icone Busca"
+              class="search-button-icon"
+            />
+          </button>
+          <input
+            class="search-input"
+            type="search"
+            placeholder="Buscar seu pokemon"
+          />
+        </div>
+      </div>
+    </header>
+    <section class="pokemon-filter-section">
+      <div class="container">
+        <h2 class="pokemon-filter-section-title">Pokemons</h2>
+        <ul class="pokemon-filter-list">
+          <li class="pokemon-filter-item pokemon-filter-item-active">
+            <button class="pokemon-filter-button" data-pokemon-type-nome="all">
+              All
+            </button>
+          </li>
+          <li class="pokemon-filter-item">
+            <button class="pokemon-filter-button" data-pokemon-type-nome="fire">
+              Fire
+            </button>
+          </li>
+          <li class="pokemon-filter-item">
+            <button
+              class="pokemon-filter-button"
+              data-pokemon-type-nome="water"
+            >
+              Water
+            </button>
+          </li>
+          <li class="pokemon-filter-item">
+            <button
+              class="pokemon-filter-button"
+              data-pokemon-type-nome="electric"
+            >
+              Electric
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <main class="pokemons">
+      <div class="container">
+        <ul class="pokemons-list"></ul>
+      </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
